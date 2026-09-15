@@ -8,6 +8,3 @@
 **Estudiante:** Valentina Pastrana Fajardo
 
 **Docente:** Walter Hugo Arboleda Mazo
-
-
-Texto readme.md

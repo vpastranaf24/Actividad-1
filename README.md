@@ -5,7 +5,7 @@
 
 ### Exercises Activity 1: 10% Individual
 
-**Estudiante:** Owen Santiago Baquero Suarez
+**Estudiante:** Valentina Pastrana Fajardo
 
 **Docente:** Walter Hugo Arboleda Mazo
 

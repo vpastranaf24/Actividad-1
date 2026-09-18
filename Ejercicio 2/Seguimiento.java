@@ -1,4 +1,4 @@
-package Seguimiento;
+package Actividad1_ejercicio2;
 
 import java.util.Scanner;
 public class Seguimiento {    

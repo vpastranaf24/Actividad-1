@@ -1,19 +1,20 @@
 package Actividad1_ejercicio5;
 
 import java.util.Scanner;
+
 public class CalculosCirculo {
 
     public static void main(String[] args) {
-
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Ingrese el radio del círculo: ");
+        System.out.print("Ingrese el radio del circulo: ");
         double radio = scanner.nextDouble();
 
-        Circulo miCirculo = new Circulo(radio);
+        double area = Circulo.calcularArea(radio);
+        double longitud = Circulo.calcularLongitud(radio);
 
-        System.out.println("El área del círculo es: " + miCirculo.calcularArea());
-        System.out.println("La longitud de la circunferencia es: " + miCirculo.calcularLongitud());
+        System.out.println("El area del circulo es: " + area);
+        System.out.println("La longitud de la circunferencia es: " + longitud);
 
         scanner.close();
     }

@@ -1,4 +1,4 @@
-package CalcularEdades;
+package Actividad1_ejercicio1;
 
 import java.util.Scanner;
 public class CalcularEdades {

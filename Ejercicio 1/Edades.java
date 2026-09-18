@@ -1,16 +1,21 @@
 package Actividad1_ejercicio1;
 
-public class Edades {
+import java.util.Scanner;
+public class CalcularEdades {
+
+    public static void main(String[] args){ 
+     double edjuan, edalber, edana, edmama;
     
-    public static double calcular_edalber(double edjuan) {
-		return 2* edjuan/3;
-	}
-
-    public static double calcular_edana(double edjuan) {
-		return 4* edjuan/3;
-	}
-
-    public static double calcular_edmama(double edjuan,double edalber,double edana) {
-		return edjuan + edalber + edana;
-	}
+     Scanner scanner = new Scanner (System.in);
+     System.out.print("How old is Juan?");
+     edjuan = scanner.nextDouble();
+     
+     edalber = Edades.calcular_edalber(edjuan);
+     edana = Edades.calcular_edana(edjuan);
+     edmama = Edades.calcular_edmama(edjuan,edalber,edana);
+     System.out.println("La edad de la mama es: "+ edmama);
+     System.out.println("La edad de la Juan es: "+ edjuan);
+     System.out.println("La edad de la Alber es: "+ edalber);
+     System.out.println("La edad de la Ana es: "+ edana);  
+    }
 }

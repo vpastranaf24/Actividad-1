@@ -2,17 +2,11 @@ package Actividad1_ejercicio5;
 
 public class Circulo {
 
-    private double radio;
-
-    public Circulo(double radio) {
-        this.radio = radio;
-    }
-
-    public double calcularArea() {
+    public static double calcularArea(double radio) {
         return Math.PI * Math.pow(radio, 2);
     }
 
-    public double calcularLongitud() {
+    public static double calcularLongitud(double radio) {
         return 2 * Math.PI * radio;
-    } 
+    }
 }

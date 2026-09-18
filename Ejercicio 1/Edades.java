@@ -1,4 +1,4 @@
-package Edades;
+package Actividad1_ejercicio1;
 
 public class Edades {
     
